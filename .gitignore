@@ -1,0 +1,36 @@
+# Streamlit and local secrets
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Google Earth Engine / Google Cloud credentials
+sacred-result-*.json
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+credentials
+
+# Ignore generic JSON keys, but keep project data files.
+*.json
+!oil_infrastructure.geojson
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
