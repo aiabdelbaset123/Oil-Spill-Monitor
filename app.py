@@ -30,6 +30,31 @@ from folium.raster_layers import ImageOverlay
 from folium.plugins import Draw
 import branca.colormap as cm
 
+
+import ee
+import streamlit as st
+import json
+
+# وظيفة لتهيئة Earth Engine
+def initialize_ee():
+    try:
+        # إذا كنت تستخدم Secrets في Streamlit (وهو الأفضل للأمان)
+        if "EE_KEYS" in st.secrets:
+            ee_key_dict = json.loads(st.secrets["EE_KEYS"])
+            credentials = ee.ServiceAccountCredentials(
+                ee_key_dict['client_email'], 
+                key_data=st.secrets["EE_KEYS"]
+            )
+            ee.Initialize(credentials)
+        else:
+            # محاولة التهيئة الافتراضية للمطور (للتشغيل المحلي)
+            ee.Initialize()
+    except Exception as e:
+        st.error(f"فشل الاتصال بـ Earth Engine: {e}")
+
+# استدعاء التهيئة عند بدء التطبيق
+initialize_ee()
+
 # ===================== إعداد الصفحة =====================
 st.set_page_config(
     page_title="مراقب التسربات النفطية - Oil Spill Monitor",
