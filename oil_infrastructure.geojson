@@ -1,0 +1,399 @@
+{
+  "type": "FeatureCollection",
+  "name": "oil_infrastructure",
+  "description": "Approximate locations of major oil infrastructure in the Gulf region and surrounding waters",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة سفانية النفطية",
+        "name_en": "Safaniya Oil Field",
+        "type": "offshore_platform",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "1,200,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.15, 27.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة المرجان النفطية",
+        "name_en": "Marjan Oil Field",
+        "type": "offshore_platform",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "500,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.70, 27.40]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة البري النفطية",
+        "name_en": "Berri Oil Field",
+        "type": "offshore_platform",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "400,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.95, 27.10]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء رأس تنورة للنفط",
+        "name_en": "Ras Tanura Oil Terminal",
+        "type": "oil_terminal",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "5,000,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.00, 26.65]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء الجبيل الصناعي",
+        "name_en": "Jubail Industrial Port",
+        "type": "oil_terminal",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "3,800,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.55, 27.00]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء ينبع للتصدير",
+        "name_en": "Yanbu Export Terminal",
+        "type": "oil_terminal",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "2,500,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.06, 23.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة الخفجي النفطية",
+        "name_en": "Khafji Oil Field",
+        "type": "offshore_platform",
+        "country": "Saudi Arabia/Kuwait (Neutral Zone)",
+        "capacity_bpd": "300,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.48, 28.40]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة الزلفي النفطية (بحرية)",
+        "name_en": "Zuluf Oil Field",
+        "type": "offshore_platform",
+        "country": "Saudi Arabia",
+        "capacity_bpd": "600,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.50, 27.80]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة الكويت - أم العيش",
+        "name_en": "Kuwait - Umm Al Aish",
+        "type": "offshore_platform",
+        "country": "Kuwait",
+        "capacity_bpd": "250,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.30, 28.50]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة الكويت - أم قصر البحرية",
+        "name_en": "Kuwait - Umm Qasr Offshore",
+        "type": "offshore_platform",
+        "country": "Kuwait",
+        "capacity_bpd": "200,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.95, 29.10]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء الأحمدي للنفط",
+        "name_en": "Ahmadi Oil Port",
+        "type": "oil_terminal",
+        "country": "Kuwait",
+        "capacity_bpd": "1,500,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.08, 29.08]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء ميناء الشعيبة",
+        "name_en": "Mina Al Shuaiba",
+        "type": "oil_terminal",
+        "country": "Kuwait",
+        "capacity_bpd": "800,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.90, 29.00]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "حقل أبو سعفة البحري",
+        "name_en": "Abu Saafa Offshore Field",
+        "type": "offshore_platform",
+        "country": "Bahrain/Saudi Arabia",
+        "capacity_bpd": "100,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.60, 26.00]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "مرفأ البحرين للنفط",
+        "name_en": "Bahrain Oil Refinery Terminal",
+        "type": "oil_terminal",
+        "country": "Bahrain",
+        "capacity_bpd": "250,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.58, 26.22]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "حقل إيد الشمال للغاز",
+        "name_en": "North Field Gas",
+        "type": "offshore_platform",
+        "country": "Qatar",
+        "capacity_bpd": "N/A (Gas)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.00, 26.20]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء حلف النفطي",
+        "name_en": "Halul Oil Terminal",
+        "type": "oil_terminal",
+        "country": "Qatar",
+        "capacity_bpd": "1,000,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.28, 25.55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "مرفأ مسيعيد",
+        "name_en": "Mesaieed Port",
+        "type": "oil_terminal",
+        "country": "Qatar",
+        "capacity_bpd": "300,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.55, 24.97]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء الفجيرة للنفط",
+        "name_en": "Fujairah Oil Terminal",
+        "type": "oil_terminal",
+        "country": "UAE",
+        "capacity_bpd": "1,500,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.34, 25.12]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "جزيرة أبو موسى (البحرية)",
+        "name_en": "Abu Musa Offshore",
+        "type": "offshore_platform",
+        "country": "UAE",
+        "capacity_bpd": "100,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.05, 25.87]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء زايد للنفط",
+        "name_en": "Ruwais Oil Refinery",
+        "type": "oil_terminal",
+        "country": "UAE",
+        "capacity_bpd": "817,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.07, 24.07]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء خراب الشحن النفطي",
+        "name_en": "Mina Al Fahal",
+        "type": "oil_terminal",
+        "country": "Oman",
+        "capacity_bpd": "900,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.58, 23.63]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "منصة بركاء البحرية",
+        "name_en": "Barka Offshore",
+        "type": "offshore_platform",
+        "country": "Oman",
+        "capacity_bpd": "150,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.80, 23.70]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء العين السخنة للنفط",
+        "name_en": "Ain Sokhna Oil Terminal",
+        "type": "oil_terminal",
+        "country": "Egypt",
+        "capacity_bpd": "500,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.35, 29.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء السويس للبترول",
+        "name_en": "Suez Petroleum Terminal",
+        "type": "oil_terminal",
+        "country": "Egypt",
+        "capacity_bpd": "700,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.53, 29.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "ميناء الدخيلة (الإسكندرية)",
+        "name_en": "Dekheila Port (Alexandria)",
+        "type": "oil_terminal",
+        "country": "Egypt",
+        "capacity_bpd": "400,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.88, 31.13]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "حقل بلاعيم البحري",
+        "name_en": "Belayim Offshore Field",
+        "type": "offshore_platform",
+        "country": "Egypt",
+        "capacity_bpd": "200,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.50, 28.90]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "حقل أبو功德 البحري",
+        "name_en": "Abu Qir Offshore Field",
+        "type": "offshore_platform",
+        "country": "Egypt",
+        "capacity_bpd": "150,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.40, 31.35]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name_ar": "حقل الجольшان البحري",
+        "name_en": "July Offshore Field",
+        "type": "offshore_platform",
+        "country": "Egypt",
+        "capacity_bpd": "100,000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.00, 28.30]
+      }
+    }
+  ]
+}
